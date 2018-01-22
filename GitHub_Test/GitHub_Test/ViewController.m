@@ -19,8 +19,15 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.title = @"Maroco";
     self.view.backgroundColor = [UIColor lightGrayColor];
+    
+    NSString *str = [self gutHub];
+    NSLog(@"str is %@",str);
 }
 
+- (NSString *)gutHub
+{
+    return @"gutHub";
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
